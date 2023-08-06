@@ -1,0 +1,37 @@
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  background-image: url('timerbg.jpg'); /* Replace 'background.jpg' with the actual image file name */
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.timer-box {
+  display: inline-block;
+  padding: 20px;
+  border: 2px solid #ccc;
+  border-radius: 10px;
+  background-color: rgba(255, 255, 255, 0.8); /* Add a semi-transparent background color to the box */
+}
+
+.timer {
+  font-size: 36px;
+  margin-top: 20px;
+}
+
+
+.buttons {
+  margin-top: 20px;
+}
+
+button {
+  padding: 10px 20px;
+  margin: 5px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.set-timer {
+  margin-top: 20px;
+}
